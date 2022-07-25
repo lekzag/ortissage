@@ -1,5 +1,5 @@
 .page {
-    width: 1500px;
+    width: 1200px;
     margin-left: auto;
     margin-right: auto;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
@@ -9,6 +9,7 @@
     background-color: rgba(211, 211, 211, 0.61);
     width: auto;
     border-radius: 20px;
+    box-shadow: 4px 4px 2px rgb(114, 114, 114);
 }
 
 .banniere {
@@ -18,13 +19,18 @@
 
 .menu-onglet {
     display: flex;
-    width: auto;
+    width: 90%;
+    margin-left: auto;
+    padding-left: 0px;
 }
 
 .menu-onglet li {
     flex: 1 1 auto;
     font-size: 25px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    padding: 5px 1px 1px 1px;
+    margin: 15px auto 15px auto;
 }
 
 ul {
@@ -34,11 +40,78 @@ ul {
 a {
     text-decoration: none;
     color: rgb(54, 82, 51);
+    border-bottom:1px dashed rgb(0, 0, 0);
 }
 
-.onglet {
-    border-bottom:1px dashed rgb(0, 0, 0);
-    padding: 5px 5px 1px 5px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+h1 {
+    background-color: rgb(175, 226, 255);
+    border-radius: 20px;
+    padding: 2px 20px 2px 20px;
+    width: auto;
+    box-shadow: 4px 4px 2px rgb(114, 114, 114);
+}
+
+
+.bandeau-bas {
+    width: 30%;
+    display: flex;
+    font-size: 12px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px 0px;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+}
+
+.bandeau-bas li {
+    flex: 0 0 30%;
+    width: 25%;
+    height: 25%;
+    background-color: rgb(175, 226, 255);
+    padding: 10px 0px;
+    text-align: center;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: rgb(106, 142, 55);
+}
+
+p {
+    text-align: justify;
+}
+
+.imp-text {
+    font-weight: bolder;
+    text-align: center;
+}
+
+.scien-name {
+    font-style: italic;
+}
+
+.surline {
+    font-weight:bolder;
+}
+
+.logo-ortiss {
+    text-align: center;
+}
+
+#logo-ortissage {
+    object-fit: fill;
+    max-width: 200px;
+}
+
+#fibreortie {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 4px 4px 2px rgb(114, 114, 114);
 }
